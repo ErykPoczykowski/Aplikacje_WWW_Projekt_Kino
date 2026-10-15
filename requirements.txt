@@ -1,0 +1,14 @@
+# CinemaHub – zależności projektu
+# Zgodnie z .spec/00_architecture_guidelines.md
+
+# Framework
+Django==6.1.*
+
+# REST API
+djangorestframework==3.16.*
+
+# Autentykacja JWT
+djangorestframework-simplejwt==5.4.*
+
+# Dokumentacja API (Swagger / OpenAPI)
+drf-spectacular==0.28.*

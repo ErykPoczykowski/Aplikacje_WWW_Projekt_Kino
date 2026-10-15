@@ -1,0 +1,61 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ========================
+# Środowisko wirtualne
+# ========================
+venv/
+env/
+.venv/
+.env/
+
+# ========================
+# Django
+# ========================
+*.sqlite3
+*.log
+local_settings.py
+/staticfiles/
+/mediafiles/
+/static/
+/media/
+
+# ========================
+# Zmienne środowiskowe
+# ========================
+.env
+.env.*
+!.env.example
+
+# ========================
+# IDE / Edytory
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ========================
+# System operacyjny
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Testy i pokrycie
+# ========================
+.coverage
+htmlcov/
+.pytest_cache/
